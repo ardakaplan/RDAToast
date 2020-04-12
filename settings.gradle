@@ -1,2 +1,3 @@
 rootProject.name='RDAToast'
 include ':app'
+include ':RDAToastLibrary'
