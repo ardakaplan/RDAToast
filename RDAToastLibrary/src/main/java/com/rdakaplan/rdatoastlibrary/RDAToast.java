@@ -26,6 +26,46 @@ public class RDAToast {
      * @param messageID string id from R.string{@link StringRes}
      * @param duration  toast message duration
      */
+    public static void warning(Context context, @StringRes int messageID, int duration) {
+
+        info(context, context.getString(messageID), duration);
+    }
+
+    /**
+     * @param context  application context
+     * @param message  toast message
+     * @param duration toast message duration
+     */
+    public static void warning(Context context, String message, int duration) {
+
+        show(Type.WARNING, context, message, duration);
+    }
+
+    /**
+     * @param context   application context
+     * @param messageID string id from R.string{@link StringRes}
+     * @param duration  toast message duration
+     */
+    public static void success(Context context, @StringRes int messageID, int duration) {
+
+        info(context, context.getString(messageID), duration);
+    }
+
+    /**
+     * @param context  application context
+     * @param message  toast message
+     * @param duration toast message duration
+     */
+    public static void success(Context context, String message, int duration) {
+
+        show(Type.SUCCESS, context, message, duration);
+    }
+
+    /**
+     * @param context   application context
+     * @param messageID string id from R.string{@link StringRes}
+     * @param duration  toast message duration
+     */
     public static void info(Context context, @StringRes int messageID, int duration) {
 
         info(context, context.getString(messageID), duration);
