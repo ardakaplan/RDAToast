@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="rda_toast_default_text_color">#FFFFFF</color>
+    <color name="rda_toast_default_info_color">#2ED7F1</color>
+    <color name="rda_toast_default_error_color">#ED1B1B</color>
+    <color name="rda_toast_default_success_color">#29EC21</color>
+    <color name="rda_toast_default_warning_color">#F9A825</color>
+
+</resources>

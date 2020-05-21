@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rdaToastLayout_linearLayout_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:background="@drawable/rda_toast_background_error"
+    tools:ignore="ContentDescription">
+
+    <ImageView
+        android:id="@+id/rdaToastLayout_imageView_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        tools:src="@drawable/rda_toast_xml_icon_error" />
+
+    <TextView
+        android:id="@+id/rdaToastLayout_textView_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/rda_toast_default_text_color"
+        tools:text="I see dead people" />
+
+</LinearLayout>
